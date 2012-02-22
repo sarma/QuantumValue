@@ -1,0 +1,151 @@
+.wpv-wrapper img,
+.wpv-wrapper iframe,
+.wpv-wrapper object,
+.wpv-wrapper .wpv-slide {
+	max-width: none;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* The outermost wrapper for the wpvSlider */
+.wpv-wrapper {
+	position: relative;
+	margin: auto;
+}
+
+/* The outermost wrapper for the wpvSlider if it is viewed in full-width layout */
+.wpv-wrapper.wpv-full-width {
+	margin: auto 0; /* had !important, but this breaks the full/boxed layout for the peek style */
+}
+
+/* 
+The main element ( the one that the jQuery wpvSlider plugin gets called on ) 
+is marked with this class for easier recognition
+*/
+.wpv-view {
+	position: relative;
+	overflow: hidden;
+/* 
+	The script will remove this when the gallery is loaded. This will prevent the 
+	"blinking content" while loading the page. Actually THE BEST way is to also set
+	inline stile to the element (style="visibility: hidden") to make sure that it 
+	gets applied as soon as the element is created. 
+	*/
+	visibility: hidden;
+}
+
+/* The main element,
+ while in full-width layout */
+.wpv-full-width .wpv-view {
+	width: 100%!important;
+	height: 100%;
+}
+
+/* The layer that overlaps the content while it is loading */
+.wpv-loading-mask {
+	position: absolute;
+	background: #f7f7f7 url(../images/loader.gif) center center no-repeat;
+	width: auto;
+	height: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 100000;
+}
+
+/* The first child of the .wpv-view used to wrap all slides */
+.wpv-htmlslide-wrap {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	vertical-align: middle;
+}
+
+/* Each slide has it's own wrapper */
+.wpv-slide-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	vertical-align: middle;
+}
+
+/* Each slide */
+.wpv-view .wpv-slide {
+	position: absolute;
+	z-index: 5;
+	image-rendering: optimizeQuality;
+	-ms-interpolation-mode: bicubic;
+}
+
+/* iframe slides (if any) */
+.wpv-slider iframe.wpv-slide {
+	width: 100%;
+	height: 100%;
+	border: none;
+	position: absolute;
+	z-index: 1;
+	display: none;
+}
+
+/* Show iframe slides after the slideshow is loaded */
+.wpv-loaded iframe.wpv-slide {
+	display: block;
+}
+
+/* 
+Let the browser to render the images faster while the slideshow is animating. 
+Note that this is only important if these images are not currently in their 
+native size.
+*/
+.wpv-wrapper .animated,
+.wpv-wrapper .animated img {
+	image-rendering: optimizeSpeed;
+	-ms-interpolation-mode: nearest-neighbor;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Examples of some generic selectors that you can use for customizations		 */
+/* -------------------------------------------------------------------------- */
+/* The .wpv-wrapper also gets a .wpv-show-bullets if the show_bullets option is true */
+.wpv-show-bullets {}
+
+/* The .wpv-wrapper also gets a .wpv-show-arrows if the show_arrows option is true */
+.wpv-show-arrows {}
+
+/* The .wpv-wrapper also gets a .wpv-show-caption if the show_caption option is true */
+.wpv-show-caption {}
+
+/* The .wpv-wrapper also gets a .wpv-ready after the slideshow is created (but before it's content is loaded) */
+.wpv-ready {}
+
+/* The .wpv-wrapper also gets a .wpv-loaded after the slideshow is loaded */
+.wpv-loaded {}
+
+/* The .wpv-wrapper also gets an "animated" class (only while it is animating) */
+.wpv-wrapper.animated {}
+
+/* The .wpv-wrapper also gets a .wpv-full-width if the expand option is true */
+.wpv-full-width {}
+
+/* Only the current slide wrapper has the active class */
+.wpv-slide-wrapper.active {}
+
+/* Only the animated slide wrappers has the animated class (only while they are animated) */
+.wpv-slide-wrapper.animated {}
+
+/* The captions */
+.wpv-caption {}
+
+/* The pager */
+.wpv-nav-pager {}
+
+/* The pager item */
+.wpv-nav-pager li {}
+
+/* The pager item on mouse over */
+.wpv-nav-pager li.hover {}
+
+/* The current pager item */
+.wpv-nav-pager li.active {}

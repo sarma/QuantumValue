@@ -1,0 +1,305 @@
+/*--------------------------------------------------------------------------
+	Internet Explorer Fixes
+--------------------------------------------------------------------------*/
+.ie7 header *,
+.ie7 .slider-shadow,
+.ie7 .shadow,
+.ie7 .footer-helper *,
+.ie7 .wpv_social *,
+.ie8 header *,
+.ie8 .slider-shadow,
+.ie8 .shadow,
+.ie8 .footer-helper *,
+.ie8 .wpv_social * {
+	filter: none !important;
+}
+
+.ie7 .classic .slider-shadow,
+.ie8 .classic .slider-shadow {
+	visibility: hidden;
+	display: block !important;
+} 
+
+.ie7 header {
+	position: relative;
+	z-index: 9001;
+}
+
+.ie8 .main-menu { 
+	bottom: -20px !important;
+}
+
+.ie7 nav,
+.ie7 nav * {
+	z-index: 9000;
+}
+
+.ie7 .logo,
+.ie8 .logo,
+.ie9 .logo {
+	border: 0px;
+}
+
+
+.ie7 .logo:hover,
+.ie8 .logo:hover,
+.ie9 .logo:hover {
+	filter: none;
+	border: 0px;
+}
+
+.ie7 nav ul ul ul li,
+.ie8 nav ul ul ul li {
+	display: inline; 
+	width: 100%; 
+} 
+
+.ie7 .thumbnail-pad .title,
+.ie7 .thumbnail:hover .title,
+.ie8 .thumbnail-pad .title,
+.ie8 .thumbnail:hover .title {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000, endColorstr=#7f000000);
+	zoom: 1;
+} 
+
+.ie7 .info-pad,
+.ie8 .info-pad {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000) alpha(opacity=0);
+	zoom: 1;
+} 
+
+.ie7 .partner img,
+.ie8 .partner img {
+	filter: none !important;
+} 
+
+.ie7 .style-face .wpv-nav-prev,
+.ie7 .style-face .wpv-nav-next,
+.ie8 .style-face .wpv-nav-prev,
+.ie8 .style-face .wpv-nav-next,
+.ie7 .style-face .wpv-nav-pager,
+.ie8 .style-face .wpv-nav-pager {
+	background-color: #111;
+}
+
+.ie7 .style-navigation-preview .wpv-caption .helper-caption-1,
+.ie8 .style-navigation-preview .wpv-caption .helper-caption-1 { 
+	height: 66px;
+}
+
+.ie8 .style-side-caption .wpv-caption {
+	filter: none;
+}
+
+.ie7 .light.style-side-caption .wpv-caption,
+.ie8 .light.style-side-caption .wpv-caption {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF);
+}
+
+.ie7 .dark.style-side-caption .wpv-caption,
+.ie8 .dark.style-side-caption .wpv-caption {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000);
+}
+
+.ie7 #scroll-to-top,
+.ie8 #scroll-to-top {
+	display: block !important;
+}  
+
+.ie8 .last,
+.ie8 .widget.last, 
+.ie8 .accordion.last,
+.ie8 .toggle.last {
+/*	border: 0px none !important;  */
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
+	border-bottom: 0px !important;
+} 
+
+.ie8 .tweet_list li.last {
+	border: 0px none !important;
+}
+
+.ie8 footer.main-footer .widget.last,
+.ie8 .toggle_content.last {
+	border: 0px none !important;
+}
+  
+.ie7 .twitter_wrap, 
+.ie8 .twitter_wrap {
+	margin-bottom: -11px;
+} 
+
+.ie7 .widget .flickr_wrap,
+.ie7 .widget .contact_info_wrap,
+.ie8 .widget .flickr_wrap,
+.ie8 .widget .contact_info_wrap {
+	margin-bottom: 0px;
+}
+
+.ie7 .widget,
+.ie8 .widget { 
+} 
+  
+.ie7 .form-submit,
+.ie8 .form-submit {
+	padding: 5px;
+} 
+
+.ie8 .wpv-caption,
+.ie8 .sub-caption,
+.ie8 .sub-caption * {
+	filter: none !important;
+	text-shadow: none !important; 
+}
+
+.ie8 .info-pad .title {
+	background: none !important; 
+	filter: none !important;
+} 
+
+.ie7 .post-format-pad {
+	margin-left: -70px;
+}
+
+.ie7 .form-label,
+.ie7 label,
+.ie8 .form-label,
+.ie8 label,
+.ie9 .form-label,
+.ie9 label {
+	display: block !important;
+	margin-left: -9px;
+	font-size: 11px !important;
+}
+
+.ie7 .widget .contact_form,
+.ie8 .widget .contact_form,
+.ie9 .widget .contact_form {
+	margin-top: -9px !important;
+	margin-bottom: -5px;
+}
+
+.ie8 .main-menu nav > div > ul > li.current_page_item,
+.ie8 .main-menu nav > div > ul > li.current-menu-parent,
+.ie8 .main-menu nav > div > ul > li.current_page_item,
+.ie8 .main-menu nav > div > ul > li.current-menu-parent {
+	box-shadow: inset red 0px 8px 15px !important;
+}
+
+.ie8 .slider-shortcode-wrapper,
+.ie8 .slider-shortcode-wrapper * {
+	filter: none !important;
+}
+
+.ie8 .main-menu {
+	position: relative;
+}
+
+.ie8 .main-menu { 
+	margin: 0px 20px;
+	top: 0px;
+}
+
+.ie8 .boxed .main-menu {
+	margin: 0px 20px -69px 20px; 
+	top: auto;
+}
+
+.ie8 .search-extend {
+	float: right;
+	position: absolute;
+	top: 2px;
+	right: 10px;
+}
+
+.ie8 .search-extend input[name=s] {
+	background: #f7f7f7 url(../images/default/search.png) right center no-repeat;
+}
+
+.ie8 h4 {
+	text-indent: 0;
+}
+
+.ie8 h4:after {
+	display: none;
+} 
+ 
+.ie7 .bypostauthor:before,
+.ie8 .bypostauthor:before,
+.ie9 .bypostauthor:before {
+	border: 0px;
+	height: 6px;
+	width: 6px;
+	top: 0px;
+	left: 0px;
+}
+
+.ie7 .form-input .required:before,
+.ie8 .form-input .required:before,
+.ie9 .form-input .required:before {
+	background: none;
+	border: 0px;
+}
+
+.ie7 .portfolio_one_column li,
+.ie8 .portfolio_one_column li {
+	margin-bottom: 20px !important;
+}
+
+/* JS Masonry fix */
+.ie7 .page-content,
+.ie8 .page-content {
+	margin-bottom: 20px !important;
+}
+
+.ie7 .news .page-content,
+.ie8 .news .page-content {
+	margin-bottom: 0px !important;
+}
+
+.ie8 .main-menu nav ul li {
+	border-left: 1px solid #333;
+}
+
+/*
+	Hover for nav | Breaks sub-menu
+.ie8 .main-menu nav > div > ul > li.current_page_item,
+.ie8 .main-menu nav > div > ul > li.current-menu-parent {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000) !important;
+	zoom: 1;
+}
+*/
+
+.ie8 .main-menu nav .sub-menu {
+	margin-top: 0px !important;
+}
+
+.ie8 .main-footer .clearboth.push.last {
+	display: none;
+}
+
+.ie8 a,
+.ie8 a:visited,
+.ie8 a:hover,
+.ie8 a:active {
+	transition: none !important;
+}
+
+.ie7 .accordion.mini .tab .inner,
+.ie8 .accordion.mini .tab .inner,
+.ie9 .accordion.mini .tab .inner {
+	background: none !important;
+	filter: none !important;
+}
+
+.ie8 .portfolio_image_wrapper img,
+.ie9 .portfolio_image_wrapper img {
+	max-width: 100% !important;
+	width: auto !important;
+}

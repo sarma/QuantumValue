@@ -1,0 +1,5 @@
+C:\Samples\QuantumValue\QV.Data.Objects\bin\Debug\QV.Data.Objects.dll
+C:\Samples\QuantumValue\QV.Data.Objects\bin\Debug\QV.Data.Objects.pdb
+C:\Samples\QuantumValue\QV.Data.Objects\obj\Debug\ResolveAssemblyReference.cache
+C:\Samples\QuantumValue\QV.Data.Objects\obj\Debug\QV.Data.Objects.dll
+C:\Samples\QuantumValue\QV.Data.Objects\obj\Debug\QV.Data.Objects.pdb

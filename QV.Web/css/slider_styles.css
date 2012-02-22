@@ -1,0 +1,1138 @@
+.header-slider-wrapper {
+	position: relative;
+}
+
+/* Grid ------------------------------------------------------------------ */
+.visiblegrid .wpv-fx-grid-mask .wpv-fx-grid-facet {
+	border: 1px solid !important;
+	border-width: 0 1px 1px 0 !important; 
+}
+
+/* slide preview in navigation */
+.wpv-preview-thumb {
+	display: none;
+}
+
+/*
+.wpv-slide .video_frame iframe {
+	width: 100%;
+}
+*/
+
+/*--------------------------------------------------------------------------
+	Face
+--------------------------------------------------------------------------*/ 
+.style-face {
+	overflow: visible !important;
+}
+
+/* Prev / Next ---------------------------------------------------------- */
+.style-face .wpv-nav-prev,
+.style-face .wpv-nav-next {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	z-index: 150;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	text-indent: -100000px;
+	/*bottom: 15% !important;
+	margin-bottom: 41px;*/
+	bottom: 0px !important;
+}
+
+.style-face .wpv-nav-prev { 
+	background-image: url(../images/slider/face/face_arrows.png);
+	background-position: left top;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+.style-face .wpv-nav-next { 
+	background-image: url(../images/slider/face/face_arrows.png);
+	background-position: right top;
+}
+
+.style-face .wpv-nav-prev:hover,
+.style-face .wpv-nav-next:hover {
+	opacity: 1;
+	filter: none;
+} 
+
+.style-face .wpv-nav-prev {
+	right: 60px;
+}
+
+.style-face .wpv-nav-next {
+	right: 30px;
+}
+
+/* Captions ------------------------------------------------------------- */
+.style-face #header-slider-caption-wrapper {} 
+
+.style-face #header-slider-caption-wrapper,
+.style-face.halfwidth #header-slider-caption-wrapper {
+	background-repeat: repeat; 
+	height: 50px;
+	max-width: 900px; 
+	position: absolute;
+	z-index: 200;
+	bottom: 15%; 
+	right: 30px;
+	overflow: hidden;
+	border-radius: 3px 0px 0px 3px;
+	zoom: 1; 
+	opacity: 0.9; 
+	text-shadow: rgba(0,0,0,0.2) -1px -1px 0px;
+}
+
+.style-face.header-slider-wrapper {
+	position: relative; 
+}
+
+.style-face.halfwidth #header-slider-caption-wrapper {
+	margin-bottom: -9px;	
+} 
+
+.classic.style-face.halfwidth #header-slider-caption-wrapper {
+	margin-bottom: -9px;
+}
+
+.style-face #header-slider-caption-wrapper,
+.classic.style-face #header-slider-caption-wrapper {
+	margin-bottom: -9px;
+}
+
+.boxed .header-slider-wrapper.halfwidth.style-face #header-slider-caption-wrapper {
+	margin-right: 0px;
+	margin-bottom: -9px;
+} 
+
+.style-face #header-slider-caption-wrapper .wpv-caption {
+	color: #eee;
+	font-size: 36px;
+	text-transform: uppercase;
+	line-height: 50px; 
+	text-shadow: rgba(0,0,0,0.4) -1px -1px 0px;
+	padding: 0px 10px;
+	float: left;
+}
+
+.style-face #header-slider-caption-wrapper .wpv-caption * {
+	color: #eee;
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.style-face #header-slider-caption-wrapper .helper-caption-1,
+.style-face #header-slider-caption-wrapper .helper-caption-2 {
+	display: none;
+}
+
+/* Pager ---------------------------------------------------------------- */
+.style-face .wpv-nav-pager {
+	position: absolute;
+	bottom: 15%;
+	margin-bottom: -28px;
+	left: auto;
+	right: 20px !important;
+	height: 20px;
+	padding: 0 3px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden; 
+	z-index: 36; 
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	border-radius: 0px 0px 3px 3px;
+}
+
+.style-face .wpv-nav-pager {
+	display: none;
+}
+
+.style-face .wpv-nav-pager:hover {
+	filter: none;
+	opacity: 1;
+}
+
+.style-face .wpv-nav-pager li {
+	width: 16px;
+	height: 16px;
+	background: url(../images/slider/face/nav_li.png) center 5px no-repeat;
+	float: left;
+	list-style: none;
+	cursor: pointer; 
+}
+
+.style-face .wpv-nav-pager li:hover,
+.style-face .wpv-nav-pager li.active {
+	background-image: url(../images/slider/face/nav_li_active.png);
+}
+
+.style-face .wpv-nav-prev,
+.style-face .wpv-nav-next,
+.style-face .wpv-nav-pager {
+	background-color: rgba(0,0,0,0.7);
+}
+
+
+/*--------------------------------------------------------------------------
+	Caption Center
+--------------------------------------------------------------------------*/
+/*
+.style-caption-center #header-slider-caption-wrapper {
+	position: absolute;
+	z-index: 200;
+	width: 600px;
+	height: 320px;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -160px; /* half height
+}
+*/
+
+.style-caption-center #header-slider-caption-wrapper {
+	position: absolute;
+	z-index: 200;
+	width: 340px;
+	height: 192px;
+	bottom: 0px;
+	left: 20px;
+}
+
+.style-caption-center #header-slider-caption-wrapper { 
+	left: 50%;
+	margin-left: -470px;
+}
+
+.halfwidth.style-caption-center #header-slider-caption-wrapper {
+	left: 20px;
+	margin: 0px;
+} 
+
+/* Captions ------------------------------------------------------------- */
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .sub-caption {
+	overflow: hidden; 
+}
+
+.style-caption-center #header-slider-caption-wrapper .wpv-caption {
+	background: url(../images/slider/caption-center/caption_bgr.png) no-repeat;
+	position: absolute;
+	color: #eee;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	text-shadow: #222 1px 1px 0px;
+}
+
+.style-caption-center #header-slider-caption-wrapper *,
+.style-caption-center #header-slider-caption-wrapper a {
+	color: #eee;
+}
+
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .main-caption {
+	width: 140px;
+	height: 113px !important;
+	padding: 20px !important;
+	display: table-cell !important;
+	vertical-align: middle !important; 
+	text-align: center;		
+	text-shadow: rgba(0,0,0,0.3) 1px 1px 0px; 
+}
+
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .main-caption,
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .main-caption * {
+	font-size: 22px;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .helper-caption-1,
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .helper-caption-2 {
+	width: 115px;
+	height: 110px;
+	padding: 20px;
+	margin-top: 20px !important;
+	right: 0;
+ 	display: table-cell;
+ 	vertical-align: middle;
+	/*display: block; */
+	overflow: hidden;
+	white-space: normal;
+	font-size: 12px;
+	color: #fff;
+	text-shadow: rgba(0,0,0,0.3) 1px 1px 0px;	 
+} 
+
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .main-caption *,
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .helper-caption-1 * {
+	vertical-align: middle;
+}
+
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .helper-caption-1 p {
+	margin-top: 33px;
+}
+
+.style-caption-center #header-slider-caption-wrapper .wpv-caption .helper-caption-2,
+.style-caption-center .wpv-nav-prev,
+.style-caption-center .wpv-nav-next,
+.style-caption-center .wpv-nav-pager {
+	display: none;
+}
+
+/*--------------------------------------------------------------------------
+	Side Caption
+--------------------------------------------------------------------------*/
+	
+	/*--------------------------------------------------------
+	// This slider is not supported in Studium Theme		//
+	--------------------------------------------------------*/
+	/*
+	.style-side-caption {
+		display: none !important;
+	}
+	*/
+
+.style-side-caption .wpv-wrapper {
+	padding-right: 300px; /* caption width = 300px ! */
+	text-shadow: 1px 1px 0px #111;
+	border-radius: 4px !important;
+}
+
+.style-side-caption .wpv-slide-wrapper,
+.style-side-caption .wpv-slide {
+	border-radius: 4px 0px 0px 4px !important;
+	overflow: hidden;
+}
+
+.style-side-caption .wpv-wrapper img {
+	border-radius: 4px 0px 0px 4px !important;
+}
+
+.style-side-caption .wpv-htmlslide-wrap {
+	margin-right: 300px;
+}
+
+.style-side-caption .wpv-view {
+	overflow: visible;
+}  
+
+/* Prev / Next ---------------------------------------------------------- */ 
+.style-side-caption .wpv-nav-prev,
+.style-side-caption .wpv-nav-next {
+	position: absolute;
+	/* top: 50%; */
+	bottom: 15px;
+	height: 44px;
+	width: 44px;
+	line-height: 44px;
+	margin-top: -22px;
+	background: url(../images/slider/side-caption/sprite.png) no-repeat;
+	cursor: pointer;
+	z-index: 150;
+}
+
+.style-side-caption .animated .wpv-nav-prev,
+.style-side-caption .animated .wpv-nav-next {
+	display: none;
+}
+
+.style-side-caption .wpv-nav-prev,
+.style-side-caption .wpv-nav-next {
+	text-indent: -10000px;
+}
+
+.style-side-caption .wpv-nav-prev {
+	left: 100%;
+	margin-left: -280px;
+	background-position: 0 0;
+}
+
+.style-side-caption .wpv-nav-next {
+	right: 20px;
+	background-position: 0 -44px;
+}
+
+.style-side-caption .wpv-nav-prev:hover {
+	background-position: -44px 0;
+}
+
+.style-side-caption .wpv-nav-next:hover {
+	background-position: -44px -44px;
+} 
+
+
+/* Captions ------------------------------------------------------------- */
+.style-side-caption #header-slider-caption-wrapper {
+	position: absolute;
+	/* width: 940px; */
+	width: 980px;
+	overflow: hidden;
+}
+
+.style-side-caption .wpv-caption {
+	background-color: rgba(255,255,255,0.6);
+	background-image: url(../images/default/shadow_folio_slider.png);
+	background-position:  left top;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 100;
+	width: 260px;
+	padding: 20px;
+	right: 0;
+	top: 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	border-radius: 0px 4px 4px 0px;
+	-moz-box-shadow: #cfcfcf 0px 2px 3px;
+	-webkit-box-shadow: #cfcfcf 0px 2px 3px;
+	box-shadow: #cfcfcf 0px 2px 3px;
+	text-shadow: #fff 0px 1px 0px;
+}
+
+/*
+.halfwidth.style-side-caption .wpv-caption {
+	margin-top: 30px;
+}
+*/
+
+/* header-slider-wrapper style-side-caption */
+ 
+
+.style-side-caption .wpv-caption .main-caption {
+	text-transform: uppercase;
+	font-size:24px;
+	line-height: 1em;
+	color: #FFF;
+	text-shadow: 1px 1px 0px #fff;
+	position: relative; 
+	width: 100%;  
+}
+
+.style-side-caption .wpv-caption .helper-caption-1 {
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 1.3em;
+}
+
+.style-side-caption .wpv-caption .helper-caption-2 {
+	display: none;
+}
+
+.style-side-caption .wpv-nav-pager {
+	display: none;
+}
+
+
+/*--------------------------------------------------------------------------
+	Peek
+--------------------------------------------------------------------------*/
+	/*--------------------------------------------------------
+	// This slider is not supported in Studium Theme		//
+	--------------------------------------------------------*/
+	.style-peek {
+		display: none !important;
+	}
+
+.style-peek {
+	width: auto !important;
+	position: static !important;
+}
+
+.style-peek .slider-shadow {
+	display: none;
+}
+
+.style-peek .wpv-loading-mask {
+	background-position: 500px center;
+}
+
+.style-peek .wpv-view {
+	padding-right: 10000px;
+	margin: auto;
+	margin-left: -90px;
+}
+
+.halfwidth.style-peek .wpv-view {
+	padding-right: 180px;
+}
+
+.style-peek .wpv-wrapper {
+	overflow: visible !important;
+	position: static !important;
+}
+
+.style-peek .wpv-wrapper.wpv-full-width {
+	width: 760px !important;
+	margin: auto !important;
+}
+
+.halfwidth.style-peek .wpv-wrapper {
+	margin: auto !important;
+}
+
+.style-peek .wpv-slide-wrapper {
+	cursor: pointer;
+}
+
+.style-peek .wpv-slide-wrapper.active {
+	cursor: auto;
+}
+
+.style-peek .wpv-view,
+.style-peek .wpv-slide-wrapper {
+	overflow: hidden;
+}
+
+/* Captions ------------------------------------------------------------- */
+/* A scrollable container for the captions */
+.style-peek #header-slider-caption-wrapper {
+	position: absolute;
+	z-index: 100;
+	color: #fff;
+	left: 50%;
+	margin-left: -490px; 
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 760px;
+	height: 67px;
+	border-radius: 4px; 
+	background: rgba(0,0,0,0.6) url(../images/patterns/pattern_02_light.png) repeat !important;
+}
+
+/* each caption */
+.style-peek .wpv-caption {
+	height: 65px;
+	overflow: hidden;
+	padding: 1px 20px;
+	position: relative;
+	border-radius: 4px;
+}
+
+.style-peek .wpv-caption .main-caption {
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 1.4em;
+	text-shadow: 1px 1px 1px #666;
+	color: #eee;
+	margin: 18px 0px 0px 0px;
+	padding: 0px;
+	position: relative;
+}
+
+.style-peek .wpv-caption .helper-caption-1,
+.style-peek .wpv-caption .helper-caption-2 {
+	position: relative;
+	color: #ddd;
+	margin: 0;
+	font-size: 12px;
+	padding: 0 4px;
+	height: 16px;
+	line-height: 16px;
+	left: -980px;
+	background: rgba(0,0,0,0.5);
+	
+	display: none;
+}
+
+/* Pager ---------------------------------------------------------------- */
+/*
+.style-peek .wpv-nav-pager {
+	padding: 0;
+	text-align: center;
+	right: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 20px;
+	position: relative;
+	top: -25px;
+	margin: 0;
+	z-index: 6;
+}
+
+.style-peek .wpv-nav-pager li {
+	width: 10px;
+	height: 7px;
+	background: url(../images/slider/peek/global-sprite.png) 0 -100px no-repeat;
+	margin: 0 2px;
+	display: inline-block;
+	*display: inline;
+	list-style: none;
+	zoom: 1;
+	padding-bottom: 2px !important;
+	cursor: pointer;
+}
+
+.style-peek .wpv-nav-pager li.active {
+	background-position: -10px -100px;
+}
+*/
+
+.style-peek .wpv-nav-pager {
+	/*
+	height: 20px;
+	padding: 0 3px;
+	position: absolute;
+	bottom: 20%;
+	margin-left: -90px;
+	margin-bottom: -20px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden; 
+	z-index: 36;  
+	border-radius: 3px;
+	text-align: center;
+	*/
+	
+	padding: 0;
+	text-align: center;
+	right: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 20px;
+	position: relative;
+	top: -30px;
+	margin: 0;
+	z-index: 6;
+}
+
+.style-peek .wpv-nav-pager li {
+	width: 16px;
+	height: 16px;
+	background: url(../images/slider/face/nav_li.png) center 5px no-repeat;
+	margin: 0;
+	display: inline-block;
+	*display: inline;
+	list-style: none;
+	zoom: 1;
+	padding-bottom: 2px !important;
+	cursor: pointer;
+}
+
+.style-peek .wpv-nav-pager li:hover,
+.style-peek .wpv-nav-pager li.active {
+	background-image: url(../images/slider/face/nav_li_active.png);
+} 
+
+/* Prev / Next ---------------------------------------------------------- */
+.style-peek .wpv-nav-prev,
+.style-peek .wpv-nav-next {
+	position: absolute;
+	height: 100px;
+	width: 40px;
+	line-height: 100px;
+	margin-top: -50px;
+	background: url(../images/slider/peek/global-sprite.png) no-repeat;
+	cursor: pointer;
+	z-index: 50;
+	text-indent: -10000px; 
+}
+
+.style-peek .wpv-nav-prev {
+	left: 0;
+	width: 50px;
+	margin-left: -10px;
+	background-position: -50px 0;
+}
+
+.style-peek .wpv-nav-next {
+	right: 0;
+	width: 40px;
+	background-position: -102px 0;
+}
+
+/*--------------------------------------------------------------------------
+	Navigation Preview
+--------------------------------------------------------------------------*/
+.style-navigation-preview .wpv-wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.style-navigation-preview .wpv-preview-thumb {
+	display: block;
+}  
+
+/* Pager ---------------------------------------------------------------- */
+.style-navigation-preview .wpv-nav-pager {
+	padding: 0;
+	text-align: center;
+	right: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 17px;
+	position: absolute;
+	top: -40px;
+	margin: 0;
+	z-index: 25;
+	z-index: 1001;
+}
+
+.boxed .style-navigation-preview .wpv-nav-pager {
+	top: 10px;
+}
+
+.slider-shortcode-wrapper .wpv-nav-pager {
+	top: -60px !important;
+	right: -6px !important;
+}
+
+.style-navigation-preview .wpv-nav-pager li {
+	width: 17px;
+	height: 17px;
+	background: url(../images/slider/navigation-preview/pager.png) top left no-repeat;
+	margin: 0px;
+	margin-right: -3px;
+	display: inline-block; 
+	list-style: none;
+	zoom: 1;
+	cursor: pointer;
+	padding: 0 !important; 
+}
+
+.style-navigation-preview .wpv-nav-pager li.active {
+	background-position: 0 -17px;
+	cursor: default;
+}
+
+.style-navigation-preview .wpv-nav-pager li:hover {
+	background-position: 0 -34px;
+}
+
+.style-navigation-preview .wpv-nav-pager li.active:hover {
+	background-position: 0 -17px;
+}
+
+/* Prev / Next ---------------------------------------------------------- */
+.style-navigation-preview .wpv-nav-prev,
+.style-navigation-preview .wpv-nav-next {
+	position: absolute;
+	top: 50%;
+	height: 44px;
+	line-height: 44px;
+	margin-top: -22px;
+	background: url(../images/slider/navigation-preview/btn_prev_next.png) no-repeat;
+	cursor: pointer;
+	z-index: 100;
+	opacity: 0.3;
+	filter: alpha(opacity=30); 
+	color: #eee; 
+	font-size: 18px;
+	text-shadow: #000 1px 1px 0px;
+	
+	/* Hidden in Studium Theme */
+	display: none !important;
+}
+
+.style-navigation-preview .wpv-nav-prev:active,
+.style-navigation-preview .wpv-nav-next:active {
+	color: #fff;
+} 
+
+.style-navigation-preview .wpv-nav-prev {
+	right: 100%;
+	margin-right: -40px;
+	text-align: right;
+	padding: 0 52px 0 20px;
+	background-position: right -44px;
+	border-left: 2px solid #484848;
+}
+
+.style-navigation-preview .wpv-nav-next {
+	left: 100%;
+	margin-left: -40px;
+	text-align: left;
+	padding: 0 20px 0 52px;
+	background-position: left top;
+	border-right: 2px solid #484848;
+} 
+
+/* Captions ------------------------------------------------------------- */
+.style-navigation-preview #header-slider-caption-wrapper {}
+
+.style-navigation-preview .wpv-caption {
+	position: absolute;
+ 	z-index: 100;
+	color: #FFF;
+	top: 75px !important; 
+	left: 50%;
+	right: auto; 
+	margin-left: -470px;
+	width: 940px !important; 
+}
+
+/*
+.boxed .style-navigation-preview.halfwidth .wpv-caption,
+.style-navigation-preview.halfwidth .wpv-caption {
+	margin-left: -390px;
+	width: 780px;
+}
+*/
+
+.style-navigation-preview .wpv-caption .main-caption {
+	width: auto;
+	float: left;
+	clear: both;
+	margin: 0px; 
+	position: relative;
+	/*font-size: 24px;*/ 
+	text-shadow: rgba(255,255,255,0.2) 1px 1px 0px !important;
+	/* margin-top: 60px; */
+}
+
+.style-navigation-preview .wpv-caption .main-caption * {
+	font-size: 24px;
+	line-height: 1em;
+}
+
+.main-caption p {
+	margin: 0px;
+	padding: 0px;
+} 
+
+.style-navigation-preview .wpv-caption .helper-caption-1,
+.style-navigation-preview .wpv-caption .helper-caption-2 {
+	width: auto;
+	height: auto;
+	float: left;
+	clear: both;
+	position: relative;
+	margin: 0px; 
+	font-size: 14px;
+	line-height: 1.5em !important;
+}
+
+.style-navigation-preview .wpv-caption .helper-caption-2 {
+	color: #efefef;
+	white-space: normal; 
+
+}
+
+.style-navigation-preview .wpv-caption .main-caption.sub-caption {}
+
+.style-navigation-preview .wpv-caption .helper-caption-1 { 
+	width: 100%; 
+} 
+
+.style-navigation-preview .wpv-caption .helper-caption-1 * {
+	font-size: 62px;
+	color: #fafafa;
+	font-style: normal; 
+	letter-spacing: -1px;
+	line-height: 1em !important;
+	margin: 0px !important;
+	text-shadow: rgba(0,0,0,0.3) 1px 1px 1px !important;
+} 
+ 
+/* Featured post */
+/*
+.style-navigation-preview .slide-post-pad {
+	background: rgba(0,0,0,0.4);
+	margin: 0px;
+	border-radius: 2px;
+	width: 50%; 
+	position: relative;
+	top: 30px;
+}
+*/
+
+.style-navigation-preview .slide-post-pad {
+	max-width: 50%;
+	background: rgba(0,0,0,0.5);
+}
+
+.style-navigation-preview .slide-post-pad p {
+	padding: 10px;
+}
+
+/*
+.style-navigation-preview .slide-post-title { 
+	font-size: 48px !important;
+	position: relative;
+	top: 30px;
+}
+
+.style-navigation-preview .slide-post-title a {
+	font-size: 48px !important;
+	line-height: 1em !important;
+}
+
+.style-navigation-preview .slide-post-title a:hover {
+	color: #fafafa !important;
+}
+
+.style-navigation-preview .wpv-caption .helper-caption-1 h2,
+.style-navigation-preview .wpv-caption .helper-caption-1 h2 a {
+	color: #eee;
+}
+
+.style-navigation-preview .wpv-caption .helper-caption-1 h2 *:hover {
+	color: #fefefe !important;
+}
+*/ 
+
+.style-navigation-preview.animation-slideMultipleCaptions .sub-caption {
+	top: -300px;
+}
+
+.style-navigation-preview.animation-slideMultipleCaptions .sub-caption.visible {
+	top: 0;
+}
+
+.style-navigation-preview .wpv-preview-thumb {
+	position: absolute;
+	right: 1px;
+	top: 100%;
+	margin-top: 3px;
+	display: block;
+	max-width: 30px;
+	max-height: 25px;
+	-moz-transition: all .4s ease-out;
+	-o-transition: all .4s ease-out;
+	-webkit-transition: all .4s ease-out;
+	-ms-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+	border-radius: 2px;
+	z-index: 1000;
+	
+	/* Hidden in Studium Theme */
+	display: none !important;
+}
+
+.style-navigation-preview .wpv-nav-prev .wpv-preview-thumb {
+	right: auto;
+	left: 2px;
+}
+
+.style-navigation-preview .wpv-nav-prev:hover .wpv-preview-thumb,
+.style-navigation-preview .wpv-nav-next:hover .wpv-preview-thumb {
+	display: block;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+.style-navigation-preview .wpv-preview-thumb: hover {
+	opacity: 1 !important;
+	filter: none !important;
+}
+
+
+/*--------------------------------------------------------------------------
+	Shortcode
+--------------------------------------------------------------------------*/
+.slider-shortcode-wrapper.style-gallery {
+	position: relative;
+	overflow: hidden;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-wrapper {
+	overflow: hidden; 
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-preview-thumb {
+	display: block;
+}  
+
+/* Pager ---------------------------------------------------------------- */
+.slider-shortcode-wrapper.style-gallery .wpv-nav-pager {
+	padding: 0;
+	text-align: center;
+	right: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 17px;
+	position: absolute;
+	top: 10px;
+	margin: 0;
+	z-index: 40;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-nav-pager li {
+	width: 17px;
+	height: 17px;
+	background: url(../images/slider/navigation-preview/pager.png) top left no-repeat;
+	margin: 0 4px;
+	margin: 0px;
+	display: inline-block; 
+	list-style: none;
+	zoom: 1;
+	cursor: pointer;
+	padding: 0 !important; 
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-nav-pager li.active {
+	background-position: 0 -17px;
+	cursor: default;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-nav-pager li: hover {
+	background-position: 0 -34px;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-nav-pager li.active: hover {
+	background-position: 0 -17px;
+}
+
+/* Prev / Next ---------------------------------------------------------- */
+.slider-shortcode-wrapper.style-gallery .wpv-nav-prev,
+.slider-shortcode-wrapper.style-gallery .wpv-nav-next {
+	display: none;
+}
+
+/* Captions ------------------------------------------------------------- */
+.slider-shortcode-wrapper.style-gallery .annotation {
+	display: none;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-caption {
+	position: absolute;
+	z-index: 100;
+	color: #FFF;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	float: left;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-caption .main-caption {
+	background: rgba(0, 0, 0, 0.3) url(../images/patterns/pattern_02_light.png) repeat;
+	margin: 0px;
+	padding: 18px 18px 16px 18px;
+	position: relative;
+	font-size: 24px; 
+	line-height: 1em;
+	color: #eee;
+	text-shadow: #333 1px 1px 0px;
+	text-transform: uppercase;
+	border-radius: 3px 3px 0px 0px;
+	
+	width: auto;
+	float: left;
+	clear: both;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-preview-thumb {
+	position: absolute;
+	right: 1px;
+	top: 100%;
+	margin-top: 3px;
+	display: block;
+	max-width: 60px;
+	max-height: 60px;
+	-moz-transition: all .4s ease-out;
+	-o-transition: all .4s ease-out;
+	-webkit-transition: all .4s ease-out;
+	-ms-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+	border-radius: 3px;
+	z-index: 1000;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-nav-prev .wpv-preview-thumb {
+	right: auto;
+	left: 2px;
+}
+
+.slider-shortcode-wrapper.style-gallery .wpv-nav-prev: hover .wpv-preview-thumb,
+.slider-shortcode-wrapper.style-gallery .wpv-nav-next: hover .wpv-preview-thumb {
+	display: block;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+/*--------------------------------------------------------------------------
+	Showcase
+--------------------------------------------------------------------------*/
+.slider-shortcode-wrapper.style-showcase {
+	overflow: hidden;
+}
+
+.slider-shortcode-wrapper.style-showcase .wpv-wrapper {
+	margin-left: 192px;
+}
+
+/* Pager ---------------------------------------------------------------- */
+.slider-shortcode-wrapper.style-showcase .wpv-nav-pager {
+	display: none;
+}
+
+/* Prev / Next ---------------------------------------------------------- */
+
+.slider-shortcode-wrapper.style-showcase .wpv-nav-prev,
+.slider-shortcode-wrapper.style-showcase .wpv-nav-next {
+	background: url(../images/default/btns_meta.png) right 0px no-repeat; 
+	height: 19px;
+	width: 21px;
+	display: inline-block;
+	position: absolute;
+	bottom: 2px;
+	left: -105px;
+	text-indent: -10000px;
+	cursor: pointer;
+}
+
+.slider-shortcode-wrapper.style-showcase .wpv-nav-next:hover {
+	background: url(../images/default/btns_meta.png) right -58px no-repeat !important;
+}
+
+.slider-shortcode-wrapper.style-showcase .wpv-nav-next:active {
+	background: url(../images/default/btns_meta.png) right -117px no-repeat !important;
+}
+
+.slider-shortcode-wrapper.style-showcase .wpv-nav-prev {
+	background-position: 0px -176px;
+	left: -126px;
+}
+
+.slider-shortcode-wrapper.style-showcase .wpv-nav-prev:hover {
+	background: url(../images/default/btns_meta.png) 0px -234px no-repeat !important;
+}
+
+.slider-shortcode-wrapper.style-showcase .wpv-nav-prev:active {
+	background: url(../images/default/btns_meta.png) 0px -293px no-repeat !important; 
+}
+
+
+/* Captions ------------------------------------------------------------- */
+.slider-shortcode-wrapper.style-showcase .annotation {
+	width: 172px;
+	height: 100%;
+	float: left;
+	background: url(../images/default/slider_sep.png) no-repeat center bottom;
+}
+
+.slider-shortcode-wrapper.style-showcase .slider-caption-wrapper {
+	display: none;
+}
+
+.slider-shortcode-wrapper.style-showcase .wpv-nav-next .wpv-caption {
+	display: none;
+}
+
+.slider-shortcode-wrapper.style-showcase .wpv-preview-thumb {
+	display: none;
+}
+
+
+/* Others */
+.wpv-caption a,
+.wpv-caption a:hover {
+	border-bottom: 0px none !important
+}
+
+/* Sliders fix */
+.wpv-wrapper img { 
+	max-width: none !important; 
+}

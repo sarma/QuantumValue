@@ -1,0 +1,5 @@
+C:\Samples\QuantumValue\QV.Web.Helpers\bin\Debug\QV.Web.Helpers.dll
+C:\Samples\QuantumValue\QV.Web.Helpers\bin\Debug\QV.Web.Helpers.pdb
+C:\Samples\QuantumValue\QV.Web.Helpers\obj\Debug\ResolveAssemblyReference.cache
+C:\Samples\QuantumValue\QV.Web.Helpers\obj\Debug\QV.Web.Helpers.dll
+C:\Samples\QuantumValue\QV.Web.Helpers\obj\Debug\QV.Web.Helpers.pdb

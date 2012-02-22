@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<portlets>
+
+     <content id='1'>
+      <div style='width:100%'>
+        <div style='width: 50%;float: left'>
+          Technologist<br />Quality<br />Project Management<br />BD &amp; Resourcing<br />Creative Guru<br />
+        </div>
+        <div style='width:50% float:right'>
+          Sarma Amirapu<br />Pramod Allu<br />Ajay Kumar Salugu<br />Krishna Mohan Vemula<br /> Mohan Krishna Thammisetty<br />
+        </div>
+      </div>
+    </content>
+   
+    <content id='2'>
+      <table>
+        <tr>
+          <td>CMS &amp; Collobaration </td>
+          <td>
+            SharePoint, SiteCore, Umbraco
+            <!-- <table>
+              <tr>
+                <td>SharePoint</td>
+              </tr>
+              <tr>
+                <td> Sitecore</td>
+              </tr>
+              <tr>
+                <td> Umbraco</td>
+              </tr>
+            </table>-->
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Web Development
+          </td>
+          <td>
+            ASP.NET, MVC, Web 2.0
+          <!--  <table>
+              <tr>
+                <td>ASP.NET</td>
+              </tr>
+              <tr>
+                <td>MVC</td>
+              </tr>
+            </table>-->
+          </td>
+        </tr>
+        <tr>
+          <td>Architecture Frameworks</td>
+
+          <td>
+            TOGAF, RUP
+            <!--<table>
+              <tr>
+                <td>TOGAF</td>
+
+              </tr>
+              <tr>
+                <td>RUP</td>
+              </tr>
+              <tr>
+                <td>CMMi</td>
+
+              </tr>
+            </table>-->
+          </td>
+        </tr>
+
+
+      </table>
+    </content>
+  <content id='3'>
+    Comming Soon to a monitor near you!
+  </content>
+  <content id='4'>
+    <ul class='PlaneList'>
+      <li>Lean &amp; Agile</li>
+      <li>Aligned to Business Goals</li>
+      <li>Passionate about technology</li>
+      <li>High delivery standards</li>
+    </ul>
+  </content>
+
+  <content id='5'>
+    <ul class='PlaneList'>
+      <li>
+        <a href='/Services/Index/ID=1'>IT Consulting</a>
+      </li>
+      <li>
+        <a href='/Services/Index/ID=2'>Architecture &amp; Design</a>
+      </li>
+      <li>
+        <a href='/Services/Index/ID=3'> Program/Project Management</a>
+      </li>
+      <li>
+        <a href='/Services/Index/ID=4'> Developement &amp; Support </a>
+      </li>
+      <li>
+        <a href='/Services/Index/ID=5'> Quality Assurance </a>
+      </li>
+    </ul>
+  </content>
+
+  <content id='6'>
+    <div>
+      <strong>Five Golden Rules of IT Consulting</strong>
+      <ul class='PlaneList'>
+        <li>
+          <strong>Focus on the Relationship</strong>
+          Understanding the personality and expectations of client, client organization and all other stakeholders
+        </li>
+        <li>
+          <strong>Clearly Defined Role</strong> Defined roles and responsibilities for both clients, other stakeholders and consulting team
+        </li>
+        <li>
+          <strong>Visualize Success</strong> Helping the client see the end at the beginning
+        </li>
+        <li>
+          <strong>You Advise, They Decide</strong> Client is the best person to decide
+        </li>
+        <li>
+          <strong>Be Oriented Towards Results</strong> Ensuring that the solution addresses end user concerns, user training, implementation and maintenance constraints
+        </li>
+      </ul>
+    </div>
+  </content>
+  <content id='7'>
+    <strong>
+    <ul class='PlaneList'>
+      <li>Web Application Development</li>
+      <li>Search engine Optimisation and Web Analytics</li>
+      <li>Bespoke application development</li>
+      <li>Specialized in Microsoft Technologies </li>
+    </ul>
+    </strong>
+  </content>
+  <content id='8'>
+    <div>
+      <strong>Lientz and Swanson categorization</strong>
+      <ul class ='PlaneList'>
+      <li>
+        <strong> Adaptive</strong>  dealing with changes and adapting in the software environment
+      </li>
+      <li>
+        <strong>Perfective</strong> accommodating with new or changed user requirements which concern functional enhancements to the software
+      </li>
+      <li>
+        <strong>Corrective</strong> dealing with errors found and fixing it
+      </li>
+      <li>
+        <strong>Preventive</strong> concerns activities aiming on increasing software maintainability and prevent problems in the future
+      </li>
+      </ul>
+    </div>
+  </content>
+  <content id='9'>
+    <strong>
+    <ul class ='PlaneList'>
+      <li>Process and Product Quality Assurance</li>
+      <li>Project Monitoring and Control</li>
+      <li>Configuration Management</li>
+      <li>Risk Management</li>
+      <li>Decision Analysis and Resolution</li>
+      <li>Measurement and Analysis</li>
+    </ul>
+    </strong>
+  </content>
+  <content id='10'>
+    <p>
+      <strong>Email</strong> info@quantumvalue.net
+    </p>
+    <p>
+      <strong>Phone</strong> (+44) 020 3590 7842
+    </p>
+  </content>
+  <content id='11'>
+    <ul class='PlaneList' >
+      <li>Capability Maturity Model (CMM)</li>
+      <li>Quality Maturity Model</li>
+      <li>Testing Maturity Model</li>
+      <li>Portfolio, Programme and Project Management Maturity Model(P3M3)</li>
+    </ul>
+  </content>
+  
+  <content id='12'>
+    <ul class='PlaneList'>
+      <li>Enterprise Architecture (Microsoft Practices &amp; Patterns)</li>
+      <li>Togaf</li>
+      <li>Rational Unified Process</li>
+    </ul>
+  </content>
+  <content id='13'>
+    <ul class='Panelist'>
+      <li>
+      <table>
+        <tr>
+          <td style='valign:middle;align:center'>CMS &amp; Collobaration </td>
+          <td>
+            SharePoint, SiteCore, Umbraco
+            
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Web Development
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>ASP.NET</td>
+              </tr>
+              <tr>
+                <td>MVC</td>
+              </tr>
+              <tr>
+                <td>LAMP</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Digital Media
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>Adobe</td>
+              </tr>
+              <tr>
+                <td>Silverlight</td>
+              </tr>
+              <tr>
+                <td>HTML5 &amp; CSS3</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      </li>
+    </ul>
+  </content>
+  <content id='14'>
+    <ul class='PlaneList'>
+      <li> Quality Assurance</li>
+      <li> Quality Plan</li>
+      <li> Quality Control</li>
+      <li> Testing as a Service</li>
+      </ul>
+  </content>
+</portlets>

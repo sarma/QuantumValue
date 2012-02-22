@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Collapsible Menu | Mathachew.com</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			setTimeout(function() {
+				// Slide
+				$('#menu1 > li > a.expanded + ul').slideToggle('medium');
+				$('#menu1 > li > a').click(function() {
+					$(this).toggleClass('expanded').toggleClass('collapsed').parent().find('> ul').slideToggle('medium');
+				});
+				$('#example1 .expand_all').click(function() {
+					$('#menu1 > li > a.collapsed').addClass('expanded').removeClass('collapsed').parent().find('> ul').slideDown('medium');
+				});
+				$('#example1 .collapse_all').click(function() {
+					$('#menu1 > li > a.expanded').addClass('collapsed').removeClass('expanded').parent().find('> ul').slideUp('medium');
+				});
+				// Fade
+				$('#menu2 > li > a.expanded + ul').fadeIn();
+				$('#menu2 > li > a').click(function() {
+					var el = $(this).parent().find('> ul');
+					if($(this).hasClass('collapsed'))
+						$(el).fadeIn();
+					else
+						$(el).fadeOut();
+					$(this).toggleClass('expanded').toggleClass('collapsed');
+				});
+				$('#example2 .expand_all').click(function() {
+					$('#menu2 > li > a.collapsed').addClass('expanded').removeClass('collapsed').parent().find('> ul').fadeIn();
+				});
+				$('#example2 .collapse_all').click(function() {
+					$('#menu2 > li > a.expanded').addClass('collapsed').removeClass('expanded').parent().find('> ul').fadeOut();
+				});
+				// Grow/Shrink
+				$('#menu3 > li > a.expanded + ul').show('normal');
+				$('#menu3 > li > a').click(function() {
+					$(this).toggleClass('expanded').toggleClass('collapsed').parent().find('> ul').toggle('normal');
+				});
+				$('#example3 .expand_all').click(function() {
+					$('#menu3 > li > a.collapsed').addClass('expanded').removeClass('collapsed').parent().find('> ul').show('normal');
+				});
+				$('#example3 .collapse_all').click(function() {
+					$('#menu3 > li > a.expanded').addClass('collapsed').removeClass('expanded').parent().find('> ul').hide('normal');
+				});
+				// Appear/Disappear
+				$('#menu4 > li > a.expanded + ul').show();
+				$('#menu4 > li > a').click(function() {
+					$(this).toggleClass('expanded').toggleClass('collapsed').parent().find('> ul').toggle();
+				});
+				$('#example4 .expand_all').click(function() {
+					$('#menu4 > li > a.collapsed').addClass('expanded').removeClass('collapsed').parent().find('> ul').show();
+				});
+				$('#example4 .collapse_all').click(function() {
+					$('#menu4 > li > a.expanded').addClass('collapsed').removeClass('expanded').parent().find('> ul').hide();
+				});
+				// Accordion
+				$('#menu5 > li > a.expanded + ul').slideToggle('medium');
+				$('#menu5 > li > a').click(function() {
+					$('#menu5 > li > a.expanded').not(this).toggleClass('expanded').toggleClass('collapsed').parent().find('> ul').slideToggle('medium');
+					$(this).toggleClass('expanded').toggleClass('collapsed').parent().find('> ul').slideToggle('medium');
+				});
+			}, 250);
+		});
+	</script>
+	<style type="text/css">
+		body {
+			font: 10pt Arial, Helvetica, Sans-serif;
+		}
+		a {
+			text-decoration: none;
+		}
+		#example1,
+		#example2,
+		#example3,
+		#example4,
+		#example5 {
+			float: left;
+		}
+		.expand_all,
+		.collapse_all {
+			cursor: pointer;
+		}
+		.example_menu {
+			font-size: 90%;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			vertical-align: top;
+			width: 136px;
+		}
+		.example_menu ul {
+			display: none;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		#menu1,
+		#menu2,
+		#menu3,
+		#menu4,
+		#menu5 {
+			margin: 0;
+		}
+		#menu1 li,
+		#menu2 li,
+		#menu3 li,
+		#menu4 li,
+		#menu5 li,
+		.example_menu li {
+			background-image: none;
+			margin: 0;
+			padding: 0;
+		}
+		.example_menu ul ul {
+			display: block;
+		}
+		.example_menu ul ul li a {
+			padding-left: 20px;
+			width: 109px;
+		}
+		.example_menu a {
+			color: #000;
+			cursor: pointer;
+			display: block;
+			font-weight: bold;
+			margin-left: 0;
+			padding: 2px 2px 2px 17px;
+			width: 112px;
+		}
+		.example_menu a.expanded {
+			background: #bbb url('images/collapse.gif') no-repeat 3px 50%;
+		}
+		.example_menu a.collapsed {
+			background: #bbb url('images/expand.gif') no-repeat 3px 50%;
+		}
+		.example_menu a:hover {
+			text-decoration: none;
+		}
+		.example_menu ul a {
+			background: #e8e8e8;
+			border-top: 2px solid #fff;
+			color: #000;
+			display: block;
+			font-weight: normal;
+			padding: 2px 2px 2px 10px;
+			width: 119px;
+		}
+		.example_menu ul a:link {
+			font-weight: normal;
+		}
+		.example_menu ul a:hover {
+			background : #f5f5f5;
+			text-decoration: underline;
+		}
+		.example_menu li.active a {
+			background: #fff;
+		}
+		.example_menu li.active li a {
+			background: #e8e8e8;
+		}
+		#menu1 li.footer,
+		#menu2 li.footer,
+		#menu3 li.footer,
+		#menu4 li.footer,
+		#menu5 li.footer,
+		.example_menu .footer {
+			background: transparent url('images/footer.jpg') no-repeat 0 0;
+			border-top: 2px solid #fff;
+			height: 9px;
+			line-height: 15px;
+			margin: 0 0 10px 0;
+			width: 131px;
+		}
+		.example_menu .footer span {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="example1">
+		<h4>Slide <a class="expand_all"><img src="images/expand.gif" alt="" /></a> <a class="collapse_all"><img src="images/collapse.gif" alt="" /></a></h4>
+		<ul id="menu1" class="example_menu">
+			<li><a class="expanded">Section A</a>
+		<ul>
+			<li><a href="#">Link A-A</a>
+		<ul>
+			<li><a href="#">Link A-A-A</a></li>
+			<li><a href="#">Link A-A-B</a></li>
+		</ul>
+		</li>
+			<li class="active"><a href="#">Link A-B</a></li>
+			<li><a href="#">Link A-C</a></li>
+			<li><a href="#">Link A-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="collapsed">Section B</a>
+		<ul>
+			<li><a href="#">Link B-A</a>
+		<ul>
+			<li><a href="#">Link B-A-A</a></li>
+			<li><a href="#">Link B-A-B</a></li>
+			<li><a href="#">Link B-A-C</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-B</a>
+		<ul>
+			<li><a href="#">Link B-B-A</a></li>
+			<li><a href="#">Link B-B-B</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-C</a></li>
+			<li><a href="#">Link B-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="collapsed">Section C</a>
+		<ul>
+			<li><a href="#">Link C-A</a></li>
+			<li><a href="#">Link C-B</a></li>
+			<li><a href="#">Link C-C</a></li>
+			<li><a href="#">Link C-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+		</ul>
+	</div>
+	<div id="example2">
+		<h4>Fade <a class="expand_all"><img src="images/expand.gif" alt="" /></a> <a class="collapse_all"><img src="images/collapse.gif" alt="" /></a></h4>
+		<ul id="menu2" class="example_menu">
+			<li><a class="collapsed">Section A</a>
+		<ul>
+			<li><a href="#">Link A-A</a>
+		<ul>
+			<li><a href="#">Link A-A-A</a></li>
+			<li><a href="#">Link A-A-B</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link A-B</a></li>
+			<li><a href="#">Link A-C</a></li>
+			<li><a href="#">Link A-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="expanded">Section B</a>
+		<ul>
+			<li><a href="#">Link B-A</a>
+		<ul>
+			<li><a href="#">Link B-A-A</a></li>
+			<li><a href="#">Link B-A-B</a></li>
+			<li><a href="#">Link B-A-C</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-B</a>
+		<ul>
+			<li class="active"><a href="#">Link B-B-A</a></li>
+			<li><a href="#">Link B-B-B</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-C</a></li>
+			<li><a href="#">Link B-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="collapsed">Section C</a>
+		<ul>
+			<li><a href="#">Link C-A</a></li>
+			<li><a href="#">Link C-B</a></li>
+			<li><a href="#">Link C-C</a></li>
+			<li><a href="#">Link C-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+		</ul>
+	</div>
+	<div id="example3">
+		<h4>Grow/Shrink <a class="expand_all"><img src="images/expand.gif" alt="" /></a> <a class="collapse_all"><img src="images/collapse.gif" alt="" /></a></h4>
+		<ul id="menu3" class="example_menu">
+			<li><a class="collapsed">Section A</a>
+		<ul>
+			<li><a href="#">Link A-A</a>
+		<ul>
+			<li><a href="#">Link A-A-A</a></li>
+			<li><a href="#">Link A-A-B</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link A-B</a></li>
+			<li><a href="#">Link A-C</a></li>
+			<li><a href="#">Link A-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="collapsed">Section B</a>
+		<ul>
+			<li><a href="#">Link B-A</a>
+		<ul>
+			<li><a href="#">Link B-A-A</a></li>
+			<li><a href="#">Link B-A-B</a></li>
+			<li><a href="#">Link B-A-C</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-B</a>
+		<ul>
+			<li><a href="#">Link B-B-A</a></li>
+			<li><a href="#">Link B-B-B</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-C</a></li>
+			<li><a href="#">Link B-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="expanded">Section C</a>
+		<ul>
+			<li><a href="#">Link C-A</a></li>
+			<li class="active"><a href="#">Link C-B</a></li>
+			<li><a href="#">Link C-C</a></li>
+			<li><a href="#">Link C-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+		</ul>
+	</div>
+	<div id="example4">
+		<h4>Appear/Disappear <a class="expand_all"><img src="images/expand.gif" alt="" /></a> <a class="collapse_all"><img src="images/collapse.gif" alt="" /></a></h4>
+		<ul id="menu4" class="example_menu">
+			<li><a class="collapsed">Section A</a>
+		<ul>
+			<li><a href="#">Link A-A</a>
+		<ul>
+			<li><a href="#">Link A-A-A</a></li>
+			<li><a href="#">Link A-A-B</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link A-B</a></li>
+			<li><a href="#">Link A-C</a></li>
+			<li><a href="#">Link A-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="collapsed">Section B</a>
+		<ul>
+			<li><a href="#">Link B-A</a>
+		<ul>
+			<li><a href="#">Link B-A-A</a></li>
+			<li><a href="#">Link B-A-B</a></li>
+			<li><a href="#">Link B-A-C</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-B</a>
+		<ul>
+			<li><a href="#">Link B-B-A</a></li>
+			<li><a href="#">Link B-B-B</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-C</a></li>
+			<li><a href="#">Link B-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="expanded">Section C</a>
+		<ul>
+			<li><a href="#">Link C-A</a></li>
+			<li class="active"><a href="#">Link C-B</a></li>
+			<li><a href="#">Link C-C</a></li>
+			<li><a href="#">Link C-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+		</ul>
+	</div>
+	<div id="example5">
+		<h4>Accordion</h4>
+		<ul id="menu5" class="example_menu">
+			<li><a class="collapsed">Section A</a>
+		<ul>
+			<li><a href="#">Link A-A</a>
+		<ul>
+			<li><a href="#">Link A-A-A</a></li>
+			<li><a href="#">Link A-A-B</a></li>
+		</ul>
+		</li>
+			<li class="active"><a href="#">Link A-B</a></li>
+			<li><a href="#">Link A-C</a></li>
+			<li><a href="#">Link A-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="expanded">Section B</a>
+		<ul>
+			<li><a href="#">Link B-A</a>
+		<ul>
+			<li><a href="#">Link B-A-A</a></li>
+			<li><a href="#">Link B-A-B</a></li>
+			<li><a href="#">Link B-A-C</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-B</a>
+		<ul>
+			<li><a href="#">Link B-B-A</a></li>
+			<li><a href="#">Link B-B-B</a></li>
+		</ul>
+		</li>
+			<li><a href="#">Link B-C</a></li>
+			<li><a href="#">Link B-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+			<li><a class="collapsed">Section C</a>
+		<ul>
+			<li><a href="#">Link C-A</a></li>
+			<li><a href="#">Link C-B</a></li>
+			<li><a href="#">Link C-C</a></li>
+			<li><a href="#">Link C-D</a></li>
+		</ul>
+		</li>
+			<li class="footer"><span> </span></li>
+		</ul>
+	</div>
+</body>
+</html>

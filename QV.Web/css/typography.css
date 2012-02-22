@@ -1,0 +1,465 @@
+/**//*--------------------------------------------------------------------------
+	General
+--------------------------------------------------------------------------*/
+p {
+  margin-bottom: 0.8em;
+}
+a.colorbox p,
+p:last-child,
+p:empty,
+p.last,
+h1:empty {
+  margin-bottom: 0;
+}
+p:empty {
+  display: none;
+}
+h1:empty {
+  margin-bottom: -20px;
+}
+small {
+  font-size: 11px !important;
+}
+.a-reset, .a-reset:hover, .a-reset:active {
+  border-bottom: 1px solid transparent !important;
+}
+a img {
+  border-bottom: none !important;
+}
+a img {
+  border: 0px;
+}
+em {
+  font-style: italic;
+}
+h1, h1 a {
+  margin-bottom: 0px;
+  margin-left: -3px;
+}
+h2, h2 a {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+h3, h3 a {
+  margin-bottom: 8px;
+}
+h4, h4 a {
+  text-transform: uppercase;
+}
+h4 {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+aside.left h4, aside.right h4 {
+  margin-bottom: 5px;
+}
+#main h4:after {
+  /* background-color: #FF6E1E; */
+
+  border-radius: 30px 30px 30px 3px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  /* 
+	The following is in CSS_Generator: 
+	width: 15px;
+	height: 15px;
+	margin-top: -7px;
+	*/
+
+}
+h4 {
+  /*
+	The following is in CSS_Generator:
+	text-indent: 21px;
+	*/
+
+}
+.main-footer h4,
+.main-footer h5,
+.slider-shortcode-wrapper h4,
+.widget_rss h4 {
+  text-indent: 0 !important;
+  margin-bottom: 5px;
+}
+.main-footer h4:after, .slider-shortcode-wrapper h4:after, .widget_rss h4:after {
+  display: none !important;
+}
+h5, h5 a {
+  font-size: 14px;
+}
+.post-article h2 {
+  margin-bottom: 0px;
+  margin-left: -2px;
+}
+/* Lists */
+ul, ol {
+  margin: 0.4em 0px 0.4em 1.3em;
+}
+ul {
+  list-style-type: decimal;
+}
+ul li, ol li {
+  padding-bottom: 2px;
+}
+ul li:last-child,
+ol li:last-child,
+ul li.last,
+ol li.last {
+  padding-bottom: 0px;
+}
+nav ul li {
+  padding-bottom: 0px;
+}
+.page-content h4:first-child {
+  margin-top: 0px;
+}
+.widget ul li:last-child {
+  margin-bottom: 0px !important;
+}
+.page-content h2:first-child {
+  margin-top: 0;
+}
+.highlight {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.highlight.light {
+  background: #FDFBCB;
+}
+.highlight.dark {
+  background: #605F42;
+  color: #eee;
+}
+/*--------------------------------------------------------------------------
+	Forms
+--------------------------------------------------------------------------*/
+input[type=button], input[type=submit], .button {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+nav ul ul {
+  font-size: 11px;
+}
+nav ul ul li a {
+  font-size: 11px;
+  border-bottom: 1px solid transparent;
+}
+nav ul li > a {
+  line-height: 1em !important;
+}
+.button {
+  font-size: 14px;
+  line-height: 22px;
+}
+.button.small {
+  font-size: 11px !important;
+  line-height: 20px;
+}
+.button.medium {
+  font-size: 14px !important;
+  line-height: 21px;
+}
+.button.large {
+  font-size: 20px !important;
+  line-height: 26px;
+}
+/* Webkit based browsers : Buttons fix */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .main-footer .button {
+    line-height: 28px;
+  }
+  .button {
+    line-height: 18px;
+  }
+}
+/*--------------------------------------------------------------------------
+	Content
+--------------------------------------------------------------------------*/
+.more-btn, .more-btn span {
+  font-size: 12px !important;
+  font-style: italic;
+}
+.more-btn.inside {
+  color: #888;
+  text-shadow: none;
+}
+.sort_by_cat * {
+  font-size: 12px;
+}
+.slogan {
+  font-size: 24px;
+  line-height: 1em;
+}
+.slogan em {
+  font-size: 12px;
+  line-height: 0.8em;
+}
+.bquote {
+  font-size: 16px;
+  line-height: 24px;
+}
+.thumbnail-pad {
+  font-weight: normal;
+}
+.thumbnail-pad span {
+  font-size: 16px;
+  color: #ececec;
+  text-shadow: #222 0px 1px 1px;
+  text-transform: uppercase;
+}
+.info-pad .info .description {
+  padding: 0px;
+}
+.info-pad .info .description * {
+  margin: 0px;
+  padding: 0px;
+}
+.project-info-pad h2 {
+  margin-top: 0px;
+}
+/* -----------------------------------------
+	Info snippet 
+----------------------------------------- */
+.slogan .title, .info-snippet .title {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+.slogan a, .info-snippet .title a {
+  font-size: 24px;
+}
+.slogan .description, .info-snippet .description {
+  font-size: 16px !important;
+  line-height: 1.4em !important;
+  font-weight: normal;
+}
+/* -----------------------------------------
+	Page title
+----------------------------------------- */
+.page-header .description {
+  font-size: 16px;
+  line-height: 1.3em;
+  margin-top: 8px;
+}
+/* -----------------------------------------
+	Text Content
+----------------------------------------- */
+blockquote, blockquote p, blockquote span {
+  /* font-size: 16px; */
+
+  line-height: 1.4em !important;
+}
+cite:before, .cite:before {
+  content: " ~ ";
+}
+cite, .cite {
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+}
+.page-content .description, .page-content .description p {
+  font-size: 14px;
+  line-height: 1.2em;
+  padding-top: 4px;
+  font-weight: normal;
+}
+/*
+.link-post-format * {
+	font-size: 18px;
+}
+*/
+.grid_172 .description, .grid_172 .description p {
+  font-size: 12px;
+}
+.description.big {
+  font-size: 14px;
+}
+.thumbnail .name {
+  font-size: 18px;
+  margin-top: 36px;
+  margin-bottom: 10px;
+}
+/* -----------------------------------------
+	Comment 
+----------------------------------------- */
+.item {
+  line-height: 1.3em;
+}
+.item .more-btn {
+  margin-top: 6px;
+}
+/* -----------------------------------------
+	Page Services
+----------------------------------------- */
+.services div {
+  line-height: 1.4em;
+}
+/* -----------------------------------------
+	Toggle
+----------------------------------------- */
+.toggle:last-child {
+  margin-bottom: 0px;
+}
+.toggle_title {
+  font-size: 14px;
+  text-transform: none;
+}
+.toggle_title b {
+  border-bottom: 1px dotted;
+}
+/* -----------------------------------------
+	Accordion + Accordion - Mini
+----------------------------------------- */
+.accordion .tab, .tabs .ui-tabs-nav li a {
+  font-size: 14px;
+}
+.accordion.mini .tab {
+  font-weight: bold;
+  font-size: 12px;
+}
+.accordion .tab.ui-state-active, .accordion .tab.ui-state-hover {
+  text-decoration: underline;
+}
+thead th {
+  font-size: 18px;
+  font-weight: normal;
+}
+tfoot {
+  font-size: 12px;
+  font-style: normal;
+  color: #777;
+}
+/* -----------------------------------------
+	Pricing
+----------------------------------------- */
+.value-box .value {
+  font-size: 98px;
+  line-height: 1em;
+}
+.value-box .value i {
+  font-size: 18px;
+}
+.value-box .meta {
+  font-size: 24px;
+}
+/* -----------------------------------------
+	Dropcaps
+----------------------------------------- */
+.dropcap1 {
+  font-size: 36px;
+  line-height: 30px;
+  float: left;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+.dropcap2 {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 28px;
+  line-height: 18px;
+  float: left;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+/* -----------------------------------------
+	Twitter Widget
+----------------------------------------- */
+.tweet_user,
+.tweet_user *,
+.tweet_time,
+.tweet_time * {
+  font-size: 11px !important;
+  border-bottom: 1px solid transparent;
+}
+.tweet_time, .tweet_time * {
+  font-size: 10px !important;
+}
+.tweet_user, .tweet_user * {
+  font-size: 11px !important;
+  border: 0px !important;
+}
+.tweet_user:before {
+  content: "@";
+}
+/* -----------------------------------------
+	Blog
+----------------------------------------- */
+.entry-date,
+.entry-utility a,
+.post-article span.author,
+.post-article span.author *,
+.entry-utility,
+.comments-link,
+.entry-utility *,
+.copyrights,
+.comment-author {
+  font-size: 11px !important;
+}
+.entry-date {
+  letter-spacing: -1px;
+}
+.author {
+  display: block;
+  margin-top: -8px;
+}
+.author b, .comments-link b {
+  font-weight: normal;
+}
+.icomment-box {
+  font-size: 11px !important;
+  line-height: 1.8em;
+  font-style: normal;
+  vertical-align: text-top;
+}
+/* -----------------------------------------
+	Comments
+----------------------------------------- */
+.form-label, label {
+  font-size: 14px !important;
+}
+.comment-meta, .comment-meta * {
+  font-size: 13px;
+}
+.comment-author {
+  line-height: 1em !important;
+}
+.comment-author span {
+  margin-top: 3px;
+  float: left;
+}
+#cancel-comment-reply-link, .comment-reply-link, .comment-edit-link {
+  font-size: 11px !important;
+}
+.comment-notes {
+  font-size: 11px !important;
+}
+.comment-content {
+  line-height: 1.4em;
+}
+/* -----------------------------------------
+	Widgets
+----------------------------------------- */
+.wpv_authors h3 {
+  float: left;
+  display: inline;
+}
+/*--------------------------------------------------------------------------
+	Footer.main-footer
+--------------------------------------------------------------------------*/
+.main-footer h5, .main-footer h4 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.main-footer, .main-footer * {
+  /*font-size: 11px;*/
+}
+.main-footer ul li {
+  line-height: 1em;
+}

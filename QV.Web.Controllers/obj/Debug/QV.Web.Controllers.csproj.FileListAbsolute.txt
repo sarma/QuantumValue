@@ -1,0 +1,13 @@
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Web.Controllers.dll
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Web.Controllers.pdb
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Data.Objects.dll
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Data.Repositories.dll
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Web.Helpers.dll
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Web.Services.dll
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Data.Objects.pdb
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Data.Repositories.pdb
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Web.Helpers.pdb
+C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Web.Services.pdb
+C:\Samples\QuantumValue\QV.Web.Controllers\obj\Debug\ResolveAssemblyReference.cache
+C:\Samples\QuantumValue\QV.Web.Controllers\obj\Debug\QV.Web.Controllers.dll
+C:\Samples\QuantumValue\QV.Web.Controllers\obj\Debug\QV.Web.Controllers.pdb

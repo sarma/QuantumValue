@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QV.Web.Services", "QV.Web.Services.Security\QV.Web.Services.csproj", "{F822D0EE-6217-41A6-B5F3-4144D0D29073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QV.Data.Repositories", "QV.Data.Repositories\QV.Data.Repositories.csproj", "{57A04BDE-33E7-4B19-B424-D68D9AC99806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QV.Web", "QV.Web\QV.Web.csproj", "{AEBA9EEA-B4C7-4C65-8653-2B83FFCF6E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QV.Data.Objects", "QV.Data.Objects\QV.Data.Objects.csproj", "{1E2301B1-A9CD-4701-A07E-0E60C8350732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QV.Web.Controllers", "QV.Web.Controllers\QV.Web.Controllers.csproj", "{BCC290C5-D3BB-4ACF-BEA2-98C5D1E4EE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QV.Web.Helpers", "QV.Web.Helpers\QV.Web.Helpers.csproj", "{AB592321-B9C5-4E95-B122-0080B821964D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F822D0EE-6217-41A6-B5F3-4144D0D29073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F822D0EE-6217-41A6-B5F3-4144D0D29073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F822D0EE-6217-41A6-B5F3-4144D0D29073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F822D0EE-6217-41A6-B5F3-4144D0D29073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A04BDE-33E7-4B19-B424-D68D9AC99806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A04BDE-33E7-4B19-B424-D68D9AC99806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A04BDE-33E7-4B19-B424-D68D9AC99806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A04BDE-33E7-4B19-B424-D68D9AC99806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBA9EEA-B4C7-4C65-8653-2B83FFCF6E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBA9EEA-B4C7-4C65-8653-2B83FFCF6E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBA9EEA-B4C7-4C65-8653-2B83FFCF6E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBA9EEA-B4C7-4C65-8653-2B83FFCF6E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2301B1-A9CD-4701-A07E-0E60C8350732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2301B1-A9CD-4701-A07E-0E60C8350732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2301B1-A9CD-4701-A07E-0E60C8350732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2301B1-A9CD-4701-A07E-0E60C8350732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC290C5-D3BB-4ACF-BEA2-98C5D1E4EE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC290C5-D3BB-4ACF-BEA2-98C5D1E4EE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC290C5-D3BB-4ACF-BEA2-98C5D1E4EE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC290C5-D3BB-4ACF-BEA2-98C5D1E4EE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB592321-B9C5-4E95-B122-0080B821964D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB592321-B9C5-4E95-B122-0080B821964D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB592321-B9C5-4E95-B122-0080B821964D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB592321-B9C5-4E95-B122-0080B821964D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,259 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+   <meta name='robots' content='noindex,nofollow' />
+
+   
+<link rel='stylesheet'   href='../../css/gfonts.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/boilerplate.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/960.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/base.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet'  href='../../css/wpvslider.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/slider_styles.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/style.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/layout.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/default.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet'  href='../../css/colorbox.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/typography.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/wp.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/ie.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='../../css/configurable.css?ver=3.3' type='text/css' media='all' />
+<link type="text/css" href="../../demos.css" rel="stylesheet" />  
+<script type='text/javascript' src='../../js/modernizr-1.7.min.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery.js?ver=1.7.1'></script>
+
+</head>
+
+	<body class="home page page-id-3103 page-parent page-template-default no-page-header cbox-share-twitter cbox-share-facebook boxed narrow-slider has-header-slider no-header-sidebars">
+<div id="container" class="main-container">
+		
+		<div class="boxed-layout"> 
+			<div class="fixed-header-box">
+				<header class="main-header header-helper light ">
+						<div class="container_16">
+							<div class="grid_16">
+								<div class="fl">
+											<a href="#" title="Quantum Value" class="logo a-reset"><img src="../../images/default/logo.png" alt="Quantum Value"/></a>
+								</div>
+									
+								<div class="fr"> 
+									
+									<div class="top-nav-box light ">
+										<nav class="top-nav">
+											<div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-5969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5969"><% Html.RenderPartial("LogOnUserControl"); %></li>
+													<li id="menu-item-5972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5971"><a href="#">Contact Us</a></li>
+</ul></div>										</nav>
+									</div> 
+								
+																		<div id="phone-num"><div style="font-size: 11px; margin-left: 20px; margin-bottom: -2px;">Call Us 24/7</div>
+					<span class="icon_small" style="margin: 0px 2px 0px 0px;">
+					<img src="../../images/phone.png" alt="phone">
+					</span>  
+					<b class="accent-1" style="font-size: 16px; vertical-align: middle;">020 3590 7842 </b></div>
+									 
+								</div>
+							</div>
+						</div>
+
+						<div class="clearfix"></div>
+						
+						<div class="main-menu">
+							<nav style="width: 940px; margin: 0 auto;">
+																<a href="#content" title="Skip to content" class="visuallyhidden">Skip to content</a>
+								<div class="menu-main-menu-container">
+								<% Html.RenderPartial("MenuUserControl"); %>
+							   </div>								<div class="search-extend fr">
+									<form role="search" method="get" class="searchform clearfix" action="#">
+	<label for="search-text-widget" class="visuallyhidden">Search for:</label>
+	<input id="search-text-widget" type="text" value="" name="s" placeholder="Search" required="required" />
+	<input type="submit" value="Search" />
+</form>								</div>
+							</nav>
+						</div>
+
+				</header>
+				<div class="clearfix"></div>	
+			</div><!-- / .fixed-header-box -->
+
+		 
+		<div class="dgrid  halfwidth visiblegrid">
+			<div class="header-slider-wrapper style-navigation-preview animation-slideMultipleCaptions  halfwidth visiblegrid slider-helper light ">
+				 
+
+<div id="header-slider-caption-wrapper"></div>
+<div id="header-slider" class="invisible">
+						<img src="../../images/phone_0.png" data-thumb="../../images/phone_0.png" alt="#caption-7460" class="wpv-slide" data-style='' />
+								
+						<img src="../../images/hand_0.png" data-thumb="../../images/hand_0.png" alt="#caption-7454" class="wpv-slide" data-style='' />
+								
+						<!--<img src="images/s2_pad1.png" data-thumb="images/s2_pad1.png" alt="#caption-6218" class="wpv-slide" data-style='' />-->
+								
+	</div>
+
+<div class="hidden">
+						<div id="caption-7460" class="wpv-caption-origin">
+								<div class="main-caption sub-caption"><div class="push" style='height:70px'></div>
+<p><img src="../../images/phone_3.png" alt="" style="position: relative; left: 80px; margin-bottom: -10px; z-index: 2;" class="slide-s-3" /></p>
+</div>
+									<div class="helper-caption-1 sub-caption"><p><img class="alignleft slide-s-1" src="../../images/phone_1.png" style="position: absolute; right: 120px; top: -215px;" /></p>
+</div>
+													<div class="helper-caption-2 sub-caption"><p><img src="../../images/phone_2.png" alt="" style="position: relative; left: 80px;" class="slide-s-2" /></p>
+</div>
+							</div>
+					<div id="caption-7454" class="wpv-caption-origin">
+								<div class="main-caption sub-caption"><div class="push" style='height:60px'></div>
+<p><img src="../../images/hand_3.png" alt="" class="slide-i-3" /></p>
+</div>
+									<div class="helper-caption-1 sub-caption"><p><img class="alignleft slide-i-1" src="../../images/hand_1.png" style="position: absolute; right:70px; top: -130px;" /></p>
+</div>
+													<div class="helper-caption-2 sub-caption"><p><img src="../../images/hand_2.png" alt="" class="slide-i-2" style="margin-left: -5px;" /></p>
+</div>
+							</div>
+					<!--<div id="caption-6218" class="wpv-caption-origin">
+								<div class="main-caption sub-caption"><div class="push" style='height:20px'></div>
+<p><img src="images/s2_txt.png" alt="" /></p>
+</div>
+									<div class="helper-caption-1 sub-caption"><p><img src="images/s2_img.png" style="position: absolute; right: 40px; top: -165px;" alt="" /></p>
+</div>
+											</div>
+			</div>-->
+			
+			
+
+
+<script>
+	jQuery(function ($) {
+		$('#header-slider').wpvSlider({
+			captionContainer: "#header-slider-caption-wrapper",
+
+			height: 293,
+			width: 980,
+			pause_time: 4096,
+			animation_time: 769,
+			effect: 'slideMultipleCaptions',
+			auto_direction: 'right',
+			caption_opacity: 1,
+			expand: 0,
+			prev_text: 'Previous',
+			next_text: 'Next',
+			autoHeight: 0,
+			pause_on_hover: 1,
+			resizing: 'crop',
+
+			effect_settings: {
+				easing: 'easeOutBack',
+				waveDuration: 769,
+				subslideDuration: 256,
+				waveType: 'T2B',
+				visibleGrid: 1,
+				rows: 3,
+				cols: 6,
+				caption_animation_time: 495,
+				caption_queue: true
+			}
+		});
+	});
+</script>
+			</div>
+		</div> 
+		
+		<!-- #main (do not remove this comment) -->
+		
+
+<div id="Div1">
+			<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+		</div>
+
+
+
+
+			
+	</div><!-- / .boxed-layout -->
+	
+	
+					
+
+<!-- / .container_16 -->
+						
+			<div class="copyrights">
+				<div class="container_16">
+					<div class="one_half"><img src="../../images/black-30.png" class="a-reset logo"></div>
+<div class="one_half last">Copyright © 2012 Quantum Value. All rights reserved.<br />
+</div>
+<div class="clearboth"></div>
+				</div>
+			</div><!-- / .copyrights -->
+		
+
+</div><!-- / #container -->
+
+			<div id="feedback-wrapper">
+							<section id="wpv_contactform-3" class="widget wpv_contactform"><h4 class="widget-title">Email Us</h4>
+<p style="display:none;">
+	Your message was successfully sent. <strong>Thank You!</strong></p>
+
+<form class="contact_form dynform" action="#" method="post">
+	<input type="hidden" value="info@quantumvalue.net" name="contact_to"/>
+	<p>
+		<label for="contact_name">Name (required)</label>
+		<input type="text" required="required" id="contact_name" name="contact_name" class="text_input" value="" size="22" tabindex="5" placeholder="Name (required)" />
+	</p>
+			
+	<p>
+		<label for="contact_email">Email (required)</label>
+		<input type="email" required="required" id="contact_email" name="contact_email" class="text_input" value="" size="22" tabindex="6"  placeholder="Email (required)" />
+	</p>
+			
+	<p>
+		<textarea required="required" name="contact_content" class="textarea" tabindex="7"></textarea>
+	</p>
+				
+	<p>
+		<div class="wire-pad">
+			<input type="submit" class="button" value="Submit" />
+		</div>
+	</p>
+</form>
+		
+</section>				<a href="#" id="feedback" class="slideout" ></a>
+					</div>
+		
+			<div id="scroll-to-top"></div>
+		
+	<div class="icons-top">
+			
+			<a href="http://www.facebook.com/QuantumValueIT" id="ifb" target="_blank"></a>
+		
+			<a href="#" id="itwitter" target="_blank"></a>
+		
+		
+	</div><!-- / .icons-top -->
+	</div>
+	
+	
+<div id="style-switcher-external-css"></div><script type='text/javascript' src='../../js/jquery.ui.core.min.js?ver=3.3'></script>
+	<script type='text/javascript' src='../../js/jquery.ui.widget.min.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery.ui.tabs.min.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/comment-reply.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery-ui-effects-core.min.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/wpvslider.uncompressed.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/wpvslider.fx.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery.jplayer.min.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/video.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery.swfobject.1-1-1.min.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='../../js/jquery.colorbox-min.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/validator.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery.tweet.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery.ui.accordion.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jail.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/contact_form.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/jquery.corner.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/wpv_common.js?ver=3.3'></script>
+<script type='text/javascript' src='../../js/wpv_theme.js?ver=3.3'></script>
+</body>
+
+</html>
