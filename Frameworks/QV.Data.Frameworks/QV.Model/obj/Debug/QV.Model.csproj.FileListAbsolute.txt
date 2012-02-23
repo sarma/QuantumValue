@@ -1,0 +1,13 @@
+C:\Samples\ef4prs-1.4-src\Infrastructure.Model\bin\Debug\QV.Model.dll
+C:\Samples\ef4prs-1.4-src\Infrastructure.Model\bin\Debug\QV.Model.pdb
+C:\Samples\ef4prs-1.4-src\Infrastructure.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Samples\ef4prs-1.4-src\Infrastructure.Model\obj\Debug\QV.Model.dll
+C:\Samples\ef4prs-1.4-src\Infrastructure.Model\obj\Debug\QV.Model.pdb
+C:\Samples\QV.Data.Frameworks\QV.Model\bin\Debug\QV.Model.dll
+C:\Samples\QV.Data.Frameworks\QV.Model\bin\Debug\QV.Model.pdb
+C:\Samples\QV.Data.Frameworks\QV.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Samples\QV.Data.Frameworks\QV.Model\obj\Debug\QV.Model.dll
+C:\Samples\QV.Data.Frameworks\QV.Model\obj\Debug\QV.Model.pdb
+C:\Samples\QV.Data.Frameworks\QV.Model\bin\Debug\QV.Model.dll.config
+C:\Samples\QV.Data.Frameworks\QV.Model\bin\Debug\EntityFramework.dll
+C:\Samples\QV.Data.Frameworks\QV.Model\bin\Debug\EntityFramework.xml

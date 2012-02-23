@@ -1,0 +1,1 @@
+The assembly is of CTP2 version, since the code has been upgraded to CTP4, this assembly is not used anymore. You needs to firstly download and installed the CTP4 version to make the code compilable.

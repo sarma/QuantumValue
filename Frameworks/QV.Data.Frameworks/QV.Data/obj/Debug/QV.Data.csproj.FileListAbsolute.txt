@@ -1,0 +1,10 @@
+C:\Samples\ef4prs-1.4-src\Infrastructure.Data\bin\Debug\QV.Data.dll
+C:\Samples\ef4prs-1.4-src\Infrastructure.Data\bin\Debug\QV.Data.pdb
+C:\Samples\ef4prs-1.4-src\Infrastructure.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Samples\ef4prs-1.4-src\Infrastructure.Data\obj\Debug\QV.Data.dll
+C:\Samples\ef4prs-1.4-src\Infrastructure.Data\obj\Debug\QV.Data.pdb
+C:\Samples\QV.Data.Frameworks\QV.Data\bin\Debug\QV.Data.dll
+C:\Samples\QV.Data.Frameworks\QV.Data\bin\Debug\QV.Data.pdb
+C:\Samples\QV.Data.Frameworks\QV.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Samples\QV.Data.Frameworks\QV.Data\obj\Debug\QV.Data.dll
+C:\Samples\QV.Data.Frameworks\QV.Data\obj\Debug\QV.Data.pdb
