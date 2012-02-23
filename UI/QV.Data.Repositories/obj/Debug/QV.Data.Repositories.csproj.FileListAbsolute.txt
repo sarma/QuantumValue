@@ -3,3 +3,8 @@ C:\Samples\QuantumValue\QV.Data.Repositories\bin\Debug\QV.Data.Repositories.pdb
 C:\Samples\QuantumValue\QV.Data.Repositories\obj\Debug\ResolveAssemblyReference.cache
 C:\Samples\QuantumValue\QV.Data.Repositories\obj\Debug\QV.Data.Repositories.dll
 C:\Samples\QuantumValue\QV.Data.Repositories\obj\Debug\QV.Data.Repositories.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\Binaries\QV.Data.Repositories.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\Binaries\QV.Data.Repositories.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Data.Repositories\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Data.Repositories\obj\Debug\QV.Data.Repositories.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Data.Repositories\obj\Debug\QV.Data.Repositories.pdb

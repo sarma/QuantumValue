@@ -11,3 +11,16 @@ C:\Samples\QuantumValue\QV.Web.Controllers\bin\Debug\QV.Web.Services.pdb
 C:\Samples\QuantumValue\QV.Web.Controllers\obj\Debug\ResolveAssemblyReference.cache
 C:\Samples\QuantumValue\QV.Web.Controllers\obj\Debug\QV.Web.Controllers.dll
 C:\Samples\QuantumValue\QV.Web.Controllers\obj\Debug\QV.Web.Controllers.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Web.Controllers.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Web.Controllers.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Data.Objects.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Data.Repositories.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Web.Helpers.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Web.Services.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Data.Objects.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Data.Repositories.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Web.Helpers.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\bin\Debug\QV.Web.Services.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\obj\Debug\QV.Web.Controllers.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Controllers\obj\Debug\QV.Web.Controllers.pdb

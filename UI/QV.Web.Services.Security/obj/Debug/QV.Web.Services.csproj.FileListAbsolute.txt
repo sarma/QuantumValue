@@ -5,3 +5,10 @@ C:\Samples\QuantumValue\QV.Web.Services.Security\bin\Debug\QV.Data.Objects.pdb
 C:\Samples\QuantumValue\QV.Web.Services.Security\obj\Debug\ResolveAssemblyReference.cache
 C:\Samples\QuantumValue\QV.Web.Services.Security\obj\Debug\QV.Web.Services.dll
 C:\Samples\QuantumValue\QV.Web.Services.Security\obj\Debug\QV.Web.Services.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Services.Security\bin\Debug\QV.Web.Services.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Services.Security\bin\Debug\QV.Web.Services.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Services.Security\bin\Debug\QV.Data.Objects.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Services.Security\bin\Debug\QV.Data.Objects.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Services.Security\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Services.Security\obj\Debug\QV.Web.Services.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Services.Security\obj\Debug\QV.Web.Services.pdb

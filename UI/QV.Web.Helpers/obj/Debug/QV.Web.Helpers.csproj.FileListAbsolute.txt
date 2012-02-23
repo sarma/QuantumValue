@@ -3,3 +3,8 @@ C:\Samples\QuantumValue\QV.Web.Helpers\bin\Debug\QV.Web.Helpers.pdb
 C:\Samples\QuantumValue\QV.Web.Helpers\obj\Debug\ResolveAssemblyReference.cache
 C:\Samples\QuantumValue\QV.Web.Helpers\obj\Debug\QV.Web.Helpers.dll
 C:\Samples\QuantumValue\QV.Web.Helpers\obj\Debug\QV.Web.Helpers.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Helpers\bin\Debug\QV.Web.Helpers.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Helpers\bin\Debug\QV.Web.Helpers.pdb
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Helpers\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Helpers\obj\Debug\QV.Web.Helpers.dll
+C:\Users\Sarma\.ssh\QuantumValue\QuantumValue\UI\QV.Web.Helpers\obj\Debug\QV.Web.Helpers.pdb
